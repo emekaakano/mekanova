@@ -32,6 +32,9 @@ export async function getEntryBySlug(slug: string): Promise<JournalEntry> {
   const fileContents = fs.readFileSync(fullPath, 'utf8');
   const { data, content } = matter(fileContents);
   const processed = await remark().use(html).process(content);
+  const contentHtml = processed
+    .toString()
+    .replace(/<a href="(https?:\/\/[^"]+)"/g, '<a href="$1" target="_blank" rel="noopener noreferrer"');
   return {
     slug,
     title: data.title as string,
@@ -39,7 +42,7 @@ export async function getEntryBySlug(slug: string): Promise<JournalEntry> {
     excerpt: data.excerpt as string,
     tags: (data.tags as string[]) || [],
     readingTime: (data.readingTime as string) || '3 min read',
-    content: processed.toString(),
+    content: contentHtml,
   };
 }
 
