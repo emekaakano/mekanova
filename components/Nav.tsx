@@ -16,8 +16,9 @@ export default function Nav() {
   return (
     <header className="sticky top-0 z-50 border-b border-slate-800 bg-slate-900">
       <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
-        <Link href="/" className="text-lg font-bold tracking-tight text-white">
-          Mekanova
+        <Link href="/" className="flex flex-col leading-tight text-white">
+          <span className="text-lg font-bold tracking-tight">Mekanova</span>
+          <span className="text-xs font-medium text-violet-400 tracking-wide">AI Build Project Journey</span>
         </Link>
         <nav className="flex items-center gap-1">
           {links.map(({ href, label }) => {
