@@ -42,7 +42,7 @@ Starting from a template is normal. Every professional developer builds on exist
 
 When I look at the finished app — live on Vercel, responsive, fully typed, with a Monthly Insights view that didn't exist in any template — I can answer yes to both. I understand every file. I can explain the data flow. I know why the Recharts components need a `mounted` state guard (SSR hydration issues). I made real architectural decisions and I know why I made them.
 
-The app is live at [expense-tracker-ai-sigma.vercel.app](https://expense-tracker-ai-sigma.vercel.app). The code is on GitHub. The next entry is about what happened when I tried to deploy it the first time.
+The app is live at [expense-tracker-ai-murex.vercel.app](https://expense-tracker-ai-murex.vercel.app/). The code is on GitHub. The next entry is about what happened when I tried to deploy it the first time.
 
 ---
 
