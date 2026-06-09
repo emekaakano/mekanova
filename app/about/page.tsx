@@ -41,7 +41,7 @@ export default function AboutPage() {
         <div className="mb-12 flex flex-col gap-8 sm:flex-row sm:items-start">
           {/* Photo */}
           <div className="shrink-0">
-            <div className="relative h-48 w-48 overflow-hidden rounded-2xl shadow-md ring-1 ring-slate-100 sm:h-56 sm:w-56">
+            <div className="relative h-64 w-48 overflow-hidden rounded-2xl shadow-md ring-1 ring-slate-100 sm:h-72 sm:w-56">
               <Image
                 src="/images/emeka.jpg"
                 alt="Emeka (Mekano)"
@@ -72,7 +72,7 @@ export default function AboutPage() {
         {/* Remaining bio paragraphs */}
         <div className="mb-12 space-y-5 text-lg leading-relaxed text-slate-600">
           <p>
-            In 2025 I enrolled in Vanderbilt University&apos;s Generative AI Software Engineering
+            In 2026 I enrolled in Vanderbilt University&apos;s Generative AI Software Engineering
             Specialization and started shipping real products with Claude Code. The Expense Tracker
             was the first. This site is the second. There are more coming.
           </p>
