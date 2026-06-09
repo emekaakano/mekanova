@@ -8,26 +8,63 @@ export const metadata = {
 };
 
 const skills = [
+  // Strategic & consulting
   'AI Strategy & Implementation',
   'Digital Transformation',
-  'Process Improvement',
+  'AI Literacy Training & Facilitation',
+  'Technology Adoption Strategy',
+  'Business Process Analysis & Redesign',
+  'AI Workflow Automation',
+  'Enterprise Product Management',
+  'Agile Project Management',
+  // Hands-on technical
+  'Prompt Engineering',
+  'Large Language Models (LLMs)',
   'AI-Assisted Development',
-  'Next.js / TypeScript',
-  'Tailwind CSS',
+  'Full-Stack AI App Development',
+  'Cloud Computing (AWS)',
+  // Leadership & change
   'Organizational Change Management',
   'Stakeholder Communication',
+  'Process Improvement',
+  'Data-Driven Decision Making',
 ];
 
 const credentials = [
   {
     title: 'Generative AI Software Engineering Specialization',
     org: 'Vanderbilt University · Coursera',
-    year: '2025–present',
+    year: '2026–present',
   },
   {
-    title: 'AI-Assisted Product Development',
-    org: 'Building in public with Claude Code',
-    year: '2025–present',
+    title: 'Claude Code: Software Engineering with Generative AI Agents',
+    org: 'Vanderbilt University',
+    year: 'Jun 2026',
+  },
+  {
+    title: 'AWS Cloud Practitioner Essentials',
+    org: 'Amazon Web Services (AWS)',
+    year: 'May 2026',
+  },
+  {
+    title: 'AI Workplace Proficiency Certification',
+    org: 'Superhuman AI',
+    year: 'Sep 2025',
+  },
+  {
+    title: 'Enterprise Product Management Fundamentals',
+    org: 'Microsoft',
+    year: 'Sep 2025',
+  },
+  {
+    title: 'Agile Project Management',
+    org: 'Google',
+    year: 'Nov 2025',
+  },
+  {
+    title: 'AI Product Development — Build in Public',
+    org: 'Expense Tracker AI · Shipped & deployed on Vercel',
+    year: '2026',
   },
 ];
 
