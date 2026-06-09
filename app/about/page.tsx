@@ -42,9 +42,19 @@ const credentials = [
     year: 'Jun 2026',
   },
   {
+    title: 'AI Product Development — Build in Public',
+    org: 'Expense Tracker AI · Shipped & deployed on Vercel',
+    year: 'Jun 2026',
+  },
+  {
     title: 'AWS Cloud Practitioner Essentials',
     org: 'Amazon Web Services (AWS)',
     year: 'May 2026',
+  },
+  {
+    title: 'Agile Project Management',
+    org: 'Google',
+    year: 'Nov 2025',
   },
   {
     title: 'AI Workplace Proficiency Certification',
@@ -55,16 +65,6 @@ const credentials = [
     title: 'Enterprise Product Management Fundamentals',
     org: 'Microsoft',
     year: 'Sep 2025',
-  },
-  {
-    title: 'Agile Project Management',
-    org: 'Google',
-    year: 'Nov 2025',
-  },
-  {
-    title: 'AI Product Development — Build in Public',
-    org: 'Expense Tracker AI · Shipped & deployed on Vercel',
-    year: '2026',
   },
 ];
 
