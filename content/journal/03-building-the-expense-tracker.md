@@ -1,46 +1,46 @@
 ---
-title: "Building the Expense Tracker: From Blank Repo to Live App"
+title: "Building the Expense Tracker: From Course Template to My Own Product"
 date: "2025-05-18"
-excerpt: "The goal was simple: ship a real, working application. Not a tutorial. Not a fork. Something I built, understood, and could point to. This is how that went."
+excerpt: "The Vanderbilt course gave us a starting point. What I did with it — the look, the features, the three rounds of iteration — that part was mine. Here's how a practical assignment became something I'm actually proud of."
 tags: ["Project", "Next.js", "Shipping", "Claude Code"]
 readingTime: "6 min read"
 ---
 
-The assignment from the Vanderbilt course was to build something real using AI-assisted development. No starter template, no prescribed stack. Just: here are the tools, go ship something.
+The Vanderbilt AI Specialization is built around practical assignments — not theoretical exercises, but real projects you build and ship. The Expense Tracker was one of them. The course provided shared templates and a clear direction: build a working expense tracking application using AI-assisted development tools.
 
-I chose an expense tracker. Personal finance apps are a known category — the UI patterns exist, the data model is clear, and the complexity is high enough to be interesting without being overwhelming. Good first project territory.
+That starting point was valuable. It meant I wasn't staring at a blank screen deciding what to build. But what I quickly realized was that a template is a floor, not a ceiling. The assignment gave me the foundation. What I built on top of it is the interesting part.
 
-## The Stack Decision
+## What the Course Gave Me
 
-I went with Next.js 14, TypeScript, and Tailwind CSS. That wasn't accidental — Claude Code's suggestions kept pointing in that direction, and after a couple of sessions I understood why: this stack has a large training corpus, tight conventions, and clear patterns that AI tooling handles exceptionally well.
+What the course provided was an initial requirements framework and a starting prompt — the brief for the first AI-assisted build. From there, the iteration and improvement were on me.
 
-TypeScript felt intimidating at first. "Strict typing for a first project?" But Claude Code enforced it consistently and explained every type error in plain English. By week two I'd stopped dreading the type errors and started finding them useful.
+The stack was Next.js 14, TypeScript, and Tailwind CSS — chosen deliberately by the course designers for reasons I came to appreciate firsthand. This stack has tight conventions and clear patterns that AI tooling handles exceptionally well. Claude Code's suggestions always pointed in the same direction the template was already going. That coherence sped everything up.
 
-## Three Versions
+What the template didn't give me: any visual design to speak of, no data visualization, no search or filtering, and no way to surface meaningful insights from the data you'd entered. It was a working skeleton. The product work was mine to do.
 
-I built this app three times. That's not as dramatic as it sounds — more like three major iterative passes — but each one was a significant step up from the last.
+## Three Rounds of Iteration
 
-**Version 1** was a functional proof of concept: add expenses, see a list, basic category tags. It worked. It was ugly. I knew it was ugly. Shipped it to Vercel anyway to prove the deployment pipeline worked.
+I went through three major passes before I considered the app finished — or finished enough to ship publicly.
 
-**Version 2** added the data visualization layer: a monthly bar chart, a category donut chart, summary cards with totals. I used Recharts, which Claude Code recommended over alternatives for its Next.js compatibility. This is where the app started to feel like a real product.
+**Round 1 — Claiming the foundation.** I worked through the template, understood every file, and started making it feel like mine. Changed the visual language: card styling, color palette, spacing system. Nothing was broken — I just didn't want to ship someone else's design choices under my name. This round was mostly learning and aesthetic decisions.
 
-**Version 3** added the Monthly Insights screen — a dedicated analytics view with a spending streak callout, a top-3 categories breakdown, and a polished donut chart. This one started from a napkin sketch. I drew what I wanted, described it to Claude Code, and it built it. That felt like a different kind of capability.
+**Round 2 — Adding what was missing.** The course template had data entry and a list. I added the layer that makes a finance app actually useful: a monthly bar chart, a category donut chart, summary cards showing totals at a glance. I used Recharts, which Claude Code recommended for its Next.js compatibility. This is where the app started feeling like a real product rather than an assignment submission.
 
-## The Hardest Part
+**Round 3 — The Monthly Insights screen.** This one was entirely self-directed. I drew what I wanted on paper — a dedicated analytics view with a spending streak callout and a top-3 categories breakdown — described it to Claude Code, and built it. No template for this. No course guidance. Just a problem I wanted to solve and a tool that helped me solve it.
+
+## The Discipline I Had to Learn
 
 The hardest part wasn't the code. It was learning to scope my requests.
 
-Early on I'd ask for too much in one prompt: "Add filtering, improve the chart colors, and make the mobile layout better." Claude Code would do all three — but the changes would interact in unexpected ways, and I'd spend the next hour debugging something that worked fine before I tried to do everything at once.
+Early on I'd ask Claude Code to do too much at once: "Add filtering, improve the chart colors, and fix the mobile layout." It would do all three — but the changes would interact in unexpected ways, and I'd spend an hour debugging something that worked perfectly before I piled three things together.
 
-The discipline that actually worked: one thing at a time, verify it works, commit, then move to the next thing. That's not an AI insight — that's just good engineering practice. But I had to learn it by making the mistake.
+The discipline that actually worked: one thing at a time, verify it works, commit, then move to the next thing. That's just good engineering practice — but I had to learn it by making the mistake, not by reading about it.
 
-## What Surprised Me About the Outcome
+## What Makes It Mine
 
-When I look at the finished app — live on Vercel, responsive, fully typed, with real data visualization — I feel a genuine sense of ownership over it.
+Starting from a template is normal. Every professional developer builds on existing foundations — frameworks, libraries, design systems, starter kits. The question isn't "did you start from scratch?" The question is: do you understand what you built, and did you take it somewhere it wouldn't have gone without you?
 
-I understand every file. I can explain the data flow. I know why the Recharts components have a `mounted` state guard (SSR hydration issues). I know what `gray-matter` does. I didn't just copy-paste a finished product — I built this iteratively, made mistakes, debugged them, and learned the architecture from the inside.
-
-That's the thing Claude Code enables that a tutorial never could: you're in the driver's seat, making real decisions, and the AI is the co-pilot explaining the road.
+When I look at the finished app — live on Vercel, responsive, fully typed, with a Monthly Insights view that didn't exist in any template — I can answer yes to both. I understand every file. I can explain the data flow. I know why the Recharts components need a `mounted` state guard (SSR hydration issues). I made real architectural decisions and I know why I made them.
 
 The app is live at [expense-tracker-ai-sigma.vercel.app](https://expense-tracker-ai-sigma.vercel.app). The code is on GitHub. The next entry is about what happened when I tried to deploy it the first time.
 
