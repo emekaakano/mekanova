@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: 'Mekanova — AI Transformation in Practice',
     description:
       'Follow the build-in-public journey of a Digital Transformation practitioner learning to build with AI tools, one project at a time.',
-    url: 'https://mekanova.vercel.app',
+    url: 'https://mekanova.dev',
     siteName: 'Mekanova',
   },
 };
