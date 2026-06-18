@@ -10,7 +10,7 @@ The Expense Tracker was live. I had proof I could build something real. What I d
 
 A Vercel subdomain works. A GitHub link works. But neither of them answers the question a potential client or employer is really asking: *who is this person, and can they do this consistently?* A single project doesn't answer that. A journey does.
 
-That's when I started thinking about mekanova.dev differently — not as a portfolio, but as a living record of the build.
+That's when I started thinking about mekanova.dev differently — not as a portfolio, but as a living record of my building journey.
 
 ## The Problem with Most Portfolio Sites
 
@@ -18,7 +18,7 @@ Most developer portfolios are lists. Projects, skills, credentials, a contact fo
 
 Those second questions are the ones that actually matter in consulting and transformation work. Anyone can list certifications. Fewer people can show the reasoning behind decisions, the things that went wrong, and what they did about it.
 
-I wanted a site that answered the harder questions. The journal format was the answer.
+I wanted a site that answered the harder questions. The journal format was the answer — and, it turns out, a built-in accountability tool.
 
 ## The Build
 
@@ -36,7 +36,7 @@ There's a specific moment in every project where it stops feeling like a project
 
 A custom domain does something psychological that a subdomain doesn't. It signals commitment. It says: this isn't a demo, this is a destination.
 
-The LinkedIn launch post went up the same week. The response reminded me why building in public is worth the discomfort of doing it in front of people.
+The LinkedIn launch post was supposed to go up the same week. It was delayed by a few days — a forced dependency upgrade had quietly broken the Vercel build. No visible error, just silent deployment failures until I traced it back and rolled the version back. A small reminder that "shipped" and "still working" aren't the same thing forever.
 
 ## What This Site Is Actually For
 
