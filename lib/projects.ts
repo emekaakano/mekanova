@@ -2,6 +2,18 @@ import { Project } from './types';
 
 export const projects: Project[] = [
   {
+    title: 'Protocol Directorate Job Board',
+    slug: 'protocol-directorate-jobboard',
+    description:
+      'A full-stack job board built for a voluntary organisation to replace a WhatsApp-based vacancy sharing process. Admins post and manage listings via a secure panel; members browse, filter, and apply directly. Features role-type filters, urgency indicators, application deadlines, auto-archiving after 30 days, CSV/PDF export reporting, and an admin CLI for account management.',
+    stack: ['Next.js 14', 'TypeScript', 'Tailwind CSS', 'Prisma', 'Turso', 'NextAuth', 'Zod'],
+    liveUrl: 'https://job-board-flame-nine.vercel.app',
+    githubUrl: 'https://github.com/emekaakano/protocol-directorate-jobboard',
+    status: 'live',
+    featured: true,
+    year: '2026',
+  },
+  {
     title: 'AI Expense Tracker',
     slug: 'expense-tracker-ai',
     description:
