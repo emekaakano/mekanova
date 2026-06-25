@@ -2,7 +2,7 @@ import { Project } from './types';
 
 export const projects: Project[] = [
   {
-    title: 'Protocol Directorate Job Board',
+    title: 'Job Board',
     slug: 'protocol-directorate-jobboard',
     description:
       'A full-stack job board built for a voluntary organisation to replace a WhatsApp-based vacancy sharing process. Admins post and manage listings via a secure panel; members browse, filter, and apply directly. Features role-type filters, urgency indicators, application deadlines, auto-archiving after 30 days, CSV/PDF export reporting, and an admin CLI for account management.',
